@@ -311,25 +311,25 @@
                 <!-- 팀원 아이템 끝 -->
                 <!-- gta5, zelda, palworld, cyberpunk -->
                 <div class="item" draggable="true" ondragstart="drag(event)" onmouseover="showPreview(this)" id="gta5">
-                    <img src="./images/gta5.png" alt="GTA5" width="512">
+                    <img src="images/gta5.png" alt="GTA5" width="512">
                     <div class="item-name">GTA5</div>
                 </div>
 
                 <div class="item" draggable="true" ondragstart="drag(event)" onmouseover="showPreview(this)"
                     id="zelda_botw">
-                    <img src="./images/Botw.png" alt="zelda_botw" width="512">
+                    <img src="images/Botw.png" alt="zelda_botw" width="512">
                     <div class="item-name">Zelda Botw</div>
                 </div>
 
                 <div class="item" draggable="true" ondragstart="drag(event)" onmouseover="showPreview(this)"
                     id="palWorld">
-                    <img src="./images/Palworld.png" alt="palWorld">
+                    <img src="images/Palworld.png" alt="palWorld">
                     <div class="item-name">PalWorld</div>
                 </div>
 
                 <div class="item" draggable="true" ondragstart="drag(event)" onmouseover="showPreview(this)"
                     id="cyberpunk2077">
-                    <img src="./images/cyberpunk2077.png" alt="cyberpunk2077">
+                    <img src="images/cyberpunk2077.png" alt="cyberpunk2077">
                     <div class="item-name">CyberPunk2077</div>
                 </div>
 
