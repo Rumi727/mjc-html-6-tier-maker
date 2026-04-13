@@ -317,13 +317,13 @@
 
                 <div class="item" draggable="true" ondragstart="drag(event)" onmouseover="showPreview(this)"
                     id="zelda_botw">
-                    <img src="images/Botw.png" alt="zelda_botw" width="512">
+                    <img src="images/botw.png" alt="zelda_botw" width="512">
                     <div class="item-name">Zelda Botw</div>
                 </div>
 
                 <div class="item" draggable="true" ondragstart="drag(event)" onmouseover="showPreview(this)"
                     id="palWorld">
-                    <img src="images/Palworld.png" alt="palWorld">
+                    <img src="images/palworld.png" alt="palWorld">
                     <div class="item-name">PalWorld</div>
                 </div>
 
