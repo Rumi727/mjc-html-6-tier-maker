@@ -137,7 +137,7 @@
             /* TODO 4: 아이템들을 가로로 나열하되 넘치면 줄바꿈되도록 하고, 라벨을 제외한 남은 공간을 꽉 채우세요. */
             /* 💡 힌트: display, flex-wrap, flex-grow 세 가지 속성을 모두 조합해야 합니다. */
             display: flex;
-            flex-wrap: warp;
+            flex-wrap: wrap;
             flex-grow: 1;
         }
 
@@ -229,7 +229,7 @@
             .tier-row {
                 /* TODO 5: 모바일 화면에서는 라벨과 드롭 영역이 세로로 배치되도록 방향을 바꾸세요. */
                 /* 💡 힌트: flex-direction 속성을 활용하여 정렬 축을 세로 방향으로 변경하세요. */
-                flex-direction: row-reverse;
+                flex-direction: column;
             }
 
             .tier-label {
@@ -313,7 +313,7 @@
                 <div class="item" draggable="true" ondragstart="drag(event)" onmouseover="showPreview(this)"
                     id="zelda_botw">
                     <img src="./images/Botw.png" alt="zelda_botw" width="512">
-                    <div class="item-name">Zelda_Botw</div>
+                    <div class="item-name">Zelda Botw</div>
                 </div>
 
                 <div class="item" draggable="true" ondragstart="drag(event)" onmouseover="showPreview(this)"
@@ -388,7 +388,7 @@
 
     <script>
         function allowDrop(ev) { ev.preventDefault(); }
-        function drag(ev) { ev.dataTransfer.setData("text", ev.target.id); }
+        function drag(ev) { ev.dataTransfer.setData("text", ev.currentTarget.id); }
         function drop(ev) {
             ev.preventDefault();
             var data = ev.dataTransfer.getData("text");
